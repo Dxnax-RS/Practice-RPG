@@ -36,6 +36,10 @@ window/stretch/mode="2d"
 
 singletons=[ "res://addons/godot-git-plugin/git_api.gdnlib" ]
 
+[global]
+
+frames=false
+
 [importer_defaults]
 
 texture={
