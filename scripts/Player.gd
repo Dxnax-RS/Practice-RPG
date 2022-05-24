@@ -18,10 +18,10 @@ func _physics_process(delta):
 	
 	if input_vector != Vector2.ZERO:
 		velocity = velocity.move_toward(input_vector * MAX_SPEED, ACCELERATION)
-		print(velocity)
+		#print(velocity)
 	else:
 		velocity = velocity.move_toward(Vector2.ZERO, FRICTION)
-		print(velocity)		
+		#print(velocity)		
 	
 	velocity = move_and_slide(velocity)
 #End code
